@@ -1,0 +1,22 @@
+Source: vdr-plugin-xmlapi
+Section: video
+Priority: extra
+Maintainer: Lars Hanisch <dvb@flensrocker.de>
+Build-Depends: debhelper (>= 8), vdr-dev (>= 2.2.0), pkg-config, libmicrohttpd-dev
+Standards-Version: 3.9.1
+Homepage: https://github.com/flensrocker/vdr-plugin-xmlapi
+
+Package: vdr-plugin-xmlapi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: VDR Plugin for the VDR Windows Phone / Windows 10 Uwp App
+
+Package: vdr-plugin-xmlapi-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: vdr-plugin-xmlapi (= ${binary:Version}), ${misc:Depends}
+Description: debugging symbols for vdr-plugin-xmlapi
+ .
+ This package contains only the debugging symbols for vdr-plugin-xmlapi 
+

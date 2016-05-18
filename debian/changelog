@@ -1,3 +1,9 @@
+vdr-plugin-xmlapi (1.0.5-17-g81a5a25-0yavdr0~trustyubuntu1) trusty; urgency=medium
+
+  * new upsteam snapshot
+
+ -- Lars Hanisch <dvb@flensrocker.de>  Wed, 18 May 2016 20:28:06 +0200
+
 vdr-plugin-xmlapi (1.0.5-11-gfcf2ae2-0yavdr0~trusty) trusty; urgency=medium
 
   * new upstream release
